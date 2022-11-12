@@ -1,0 +1,1 @@
+console.log("Website by: github.com/OLIMINATOR")

@@ -1,6 +1,13 @@
-# minecraft-web-portal
-A clean and simple Minecraft "portal" website template.
 
-Avaliable on SpigotMC and MC-Market:
-https://www.spigotmc.org/resources/minecraft-website-template-portal-%E2%98%85-responsive-%E2%98%85-easy.48410/
-https://www.mc-market.org/resources/5113/
+<div align="center">
+
+# Minecraft server website
+Simple, clean website for minecraft servers. Everything is customizable.
+<br>
+<br>
+![image](https://i.imgur.com/pM5JUDS.png)
+
+http://oliminator.net/mc-server-website/
+
+THIS IS NOT MINE!
+</div>

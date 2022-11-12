@@ -1,75 +1,56 @@
-<!-- Proudly coded by Billy (https://bybilly.uk) -->
-<!-- Version: 1.9.2 -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
 <head>
-	<!-- Info meta tags, important for social media + SEO -->
-	<title>MyServer - Official Website</title>
-	<meta name="description" content="MyServer is a new and awesome Minecraft server. You can join with the IP 'play.myserver.net'.">
-	<meta property="og:title" content="MyServer - Official Website Portal">
-	<meta property="og:site_name" content="MyServer">
-	<meta property="og:description" content="MyServer is a new and awesome Minecraft server. You can join with the IP 'play.myserver.net'.">
-	<meta property="og:image" content="https://bybilly.uk/portal/img/minecraft.jpg">
-	<meta property="og:url" content="https://bybilly.uk/">
-	<meta name="twitter:card" content="summary_large_image">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow"/>
+    <title>MeowSteal Portal</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="description" content="MeowSteal SMP is the best lifesteal server! :P">
+    <meta name="keywords" content="minecraft, server, mc, minecraft server, Example Server">
+    <meta name="author" content="Example.xyz">
+    <link rel="icon" href="assets/logo.ico"> 
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.meowsteal.net">
+    <meta property="og:title" content="MeowSteal Portal">
+    <meta property="og:description" content="Example Description">
+    <meta property="og:image" content="https://image">
+    <meta name="theme-color" content=#12345>
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.Example.xyz">
+    <meta property="twitter:title" content="Example Server">
+    <meta property="twitter:description" content="Example Description">
+    <meta property="twitter:image" content="https://image">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/style.css"> 
+    <script src="https://kit.fontawesome.com/5acf4d9e80.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-	<div class="container">
-		<div class="logo">
-			<!-- In the img folder, upload your logo -->
-			<!-- Make sure you name it 'logo.png' or update the code below -->
-			<img src="img/logo.png" alt="MeowNetwork logo">
-		</div>
-
-		<div class="items">
-			<!-- Replace # with your forum URL-->
-			<a href="https://info.meowsteal.net/meowsteal.html" class="item forums">
-			<div>
-				<img src="img/meowsteal.png" alt="MeowSteal SMP logo" class="img">
-				<p class="subtitle">Fun Lifesteal</p>
-				<p class="title">MeowSteal SMP</p>
-			</div>
-			</a>
-
-			<!-- Replace # with your store URL -->
-			<a href="#" class="item store">
-			<div>
-				<img src="img/store.png" alt="Minecraft store icon" class="img">
-				<p class="subtitle">donate on our</p>
-				<p class="title">Store</p>
-			</div>
-			</a>
-
-			<!-- Replace # with your vote URL -->
-			<a href="https://info.meowsteal.net" class="item vote">
-			<div>
-				<img src="img/meowsmp.png" alt="MeowSMP logo" class="img">
-				<p class="subtitle">1.8 minigames</p>
-				<p class="title">MeowSMP 1.8</p>
-			</div>
-			</a>
-
-		</div>
-
-		<div class="playercount">
-			<!-- Replace play.cubecraft.net with your server IP address -->
-			<!-- Do it on both line 66 and line 67 -->
-			<!-- Please set both your IP and port -->
-			<p>Join <span class="sip" data-ip="play.meowsteal.net" data-port="25565">
-			</span> other players on <span class="ip">play.meowsteal.net</span></p>
-		</div>
-	</div>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="js/firefly.js" type="text/javascript"></script>
-	<script src="js/main.js" type="text/javascript"></script>
+    <script>
+                let storeIp = "play.meowsteal.net";
+                function copy() {
+                   navigator.clipboard.writeText(storeIp);
+                   alert("Server Ip copied to Clipboard!");
+                }
+    </script>
+    <div class="center">
+        <div class="animate__animated animate__jackInTheBox">
+            <h1>MeowSteal SMP</h1> <!--- Server Name -->
+            <p>The best lifesteal SMP server out there!</p> <!--- Description -->
+            <div class="animate__animated animate__bounceIn animate__delay-1s">
+                <a href="https://dsc.gg/meowsteal"><button class="btn1"><i class="fab fa-discord"></i> Discord</button></a>
+                <a href="https://meowsteal.tebex.io"><button class="btn2"><i class="fas fa-shopping-basket"></i> Store</button></a>
+                <button class="btn3" onclick="copy()" id="btn-ip"><i class="fas fa-poll"></i>Server IP</button>
+            </div>
+        </div>
+    </div>
+    <script src="app/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5acf4d9e80.js" crossorigin="anonymous"></script>
 </body>
 </html>
+<!--- WEBSITE BY: github.com/OLIMINATOR -->
